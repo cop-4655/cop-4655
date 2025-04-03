@@ -11,13 +11,12 @@
 
 ### Description
 
-[Provide a brief description of your app, its purpose, and functionality.]
+**APP_NAME_HERE** is an expense tracking app.
 
 ### App Evaluation
 
-[Evaluation of your app across the following attributes]
 - **Category:** [e.g., Social, Entertainment, Education]
-- **Mobile:** [Is it a mobile application only?]
+- **Mobile:** Yes, it is a mobile application only
 - **Story:**  [What story does your app tell?]
 - **Market:** [Target audience for the app]
 - **Habit:** [Is it a daily use app or occasional use?]
@@ -29,33 +28,45 @@
 
 **Required Must-have Stories**
 
-* [User can [specific action, e.g., register an account]]
-* ...
+* User can track their expenses
+* User can view home page (with home icon/button at the bottom)
+* User can view overview page with [circle] graphs displaying expenses (also has icon/button at bottom)
+* User can add expenses/etc. by pressing the Plus (**+**) icon/button at bottom
+* User can sign up and login an account
+* User can track and see how expenses differ from one week/month/etc. to another (e.g. mean expenses on food, gas, etc.)
+* User can create budgets and keep track of them/notify when the budget is exceeded or close to being exceeded
+* User can use tags feature; similar to categories, except users can define the tag
 
 **Optional Nice-to-have Stories**
 
-* [User can [specific action, e.g., persist user information across working sessions]]
-* ...
+* User can choose between light and dark mode
+* User can view generated graphs based on their data
+* User can view calendar or something to show spending per week, month, etc.
+* User can view daily/weekly/etc. tips providing useful financial advice, etc.
+* User can view and modify profile and/or settings page (also has icon/button at bottom)
+* User can login to account with ocal authentication framework (i.e. Local FaceID/Biometric Login)
+* User can view notifications page/tab (also has icon/button at bottom)
+* User can separate expenses by category (e.g. food/drink, traveling, entertainment, bills/taxes, etc.)
+* User can scan/upload image of receipt to add receipt data to expenses (i.e. automated receipt capture)
 
 ### 2. Screen Archetypes
+**TODO**
 
-- [ ] [**Screen Name, e.g., Login Screen**]
-* [Required User Feature: User can log in.]
-- [ ] [**Another Screen Name**]
+- [ ] **Login/Sign up Screen**
+* User can log in
+* User can sign up
+- [ ] **Home Screen**
 * [Associated required user story]
-...
-...
-...
+- [ ] **Overview Screen**
+* [Associated required user story]
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-- [ ] [First Tab, e.g., Home Feed]
-- [ ] [Second Tab, e.g., Profile]
-...
-...
-...
+- [ ] Home Feed
+- [ ] Overview
+- [ ] 
 
 **Flow Navigation** (Screen to Screen)
 
