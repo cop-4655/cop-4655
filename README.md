@@ -93,7 +93,7 @@
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
+![Xpense Wireframe excalidraw](https://github.com/user-attachments/assets/aa3be432-6f4c-4299-a257-b6990ce12035)
 
 ## Schema 
 
