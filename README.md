@@ -17,7 +17,7 @@
 
 - **Category:** Finance
 - **Mobile:** Yes, it is a mobile application only
-- **Story:**  [What story does your app tell?]
+- **Story:**  You’re juggling bills, subscriptions, savings goals, maybe even debt. We get it. Our app helps you cut through the noise and actually see your money clearly and simply.
 - **Market:** General audience
 - **Habit:** Daily use
 - **Scope:** Narrow
