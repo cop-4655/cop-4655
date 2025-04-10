@@ -31,7 +31,8 @@
 * User can track their expenses
 * User can view home page (with home icon/button at the bottom)
 * User can add expenses/etc. by pressing the Plus (**+**) icon/button at bottom
-* User can sign up and login an account
+* User can sign up for an account
+* User can log into an account
 
 **Optional Nice-to-have Stories**
 
