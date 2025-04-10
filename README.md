@@ -100,14 +100,14 @@
 
 ### Models
 
-[User Model]
+#### User Model
 | Property | Type   | Description                                  |
 |----------|--------|----------------------------------------------|
 | username | String | unique id for the user post (default field)  |
 | password | String | user's password for login authentication     |
 | email    | String | user's email                                 |
 
-[Expense Model]
+#### Expense Model
 | Property | Type   | Description                                  |
 |----------|--------|----------------------------------------------|
 | name     | String | name of expense                              |
