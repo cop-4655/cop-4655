@@ -1,4 +1,4 @@
-# APP_NAME_HERE
+# Xpense
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 
 ### Description
 
-**APP_NAME_HERE** is an expense tracking app.
+**Xpense** is an expense tracking app.
 
 ### App Evaluation
 
@@ -50,22 +50,26 @@
 * User can scan/upload image of receipt to add receipt data to expenses (i.e. automated receipt capture)
 
 ### 2. Screen Archetypes
-**TODO**
 
 - [ ] **Login/Sign up Screen**
 * User can log in
 * User can sign up
 - [ ] **Home Screen**
-* [Associated required user story]
-- [ ] **Overview Screen**
-* [Associated required user story]
+* User can view transactions
+- [ ] **User Screen**
+* User can view and edit name
+* User can view and edit username
+* User can view and edit email
+* User can view and edit password
+- [ ] **Expense Screen**
+* User can add expenses (name, amount, category)
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
 - [ ] Home Feed
-- [ ] Overview
+- [ ] User Screen
 - [ ] 
 
 **Flow Navigation** (Screen to Screen)
@@ -78,10 +82,6 @@
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
 
