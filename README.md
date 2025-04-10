@@ -15,12 +15,12 @@
 
 ### App Evaluation
 
-- **Category:** [e.g., Social, Entertainment, Education]
+- **Category:** Finance
 - **Mobile:** Yes, it is a mobile application only
 - **Story:**  [What story does your app tell?]
-- **Market:** [Target audience for the app]
-- **Habit:** [Is it a daily use app or occasional use?]
-- **Scope:** [Is it a broad or narrow app in terms of features?]
+- **Market:** General audience
+- **Habit:** Daily use
+- **Scope:** Narrow
 
 ## Product Spec
 
@@ -30,12 +30,8 @@
 
 * User can track their expenses
 * User can view home page (with home icon/button at the bottom)
-* User can view overview page with [circle] graphs displaying expenses (also has icon/button at bottom)
 * User can add expenses/etc. by pressing the Plus (**+**) icon/button at bottom
 * User can sign up and login an account
-* User can track and see how expenses differ from one week/month/etc. to another (e.g. mean expenses on food, gas, etc.)
-* User can create budgets and keep track of them/notify when the budget is exceeded or close to being exceeded
-* User can use tags feature; similar to categories, except users can define the tag
 
 **Optional Nice-to-have Stories**
 
@@ -48,16 +44,20 @@
 * User can view notifications page/tab (also has icon/button at bottom)
 * User can separate expenses by category (e.g. food/drink, traveling, entertainment, bills/taxes, etc.)
 * User can scan/upload image of receipt to add receipt data to expenses (i.e. automated receipt capture)
+* User can view overview page with [circle] graphs displaying expenses (also has icon/button at bottom)
+* User can track and see how expenses differ from one week/month/etc. to another (e.g. mean expenses on food, gas, etc.)
+* User can create budgets and keep track of them/notify when the budget is exceeded or close to being exceeded
+* User can use tags feature; similar to categories, except users can define the tag
 
 ### 2. Screen Archetypes
 
-- [ ] **Login/Sign up Screen**
+- [ ] **Login Screen**
 * User can log in
+- [ ] **Sign up Screen**
 * User can sign up
 - [ ] **Home Screen**
 * User can view transactions
 - [ ] **User Screen**
-* User can view and edit name
 * User can view and edit username
 * User can view and edit email
 * User can view and edit password
@@ -68,16 +68,28 @@
 
 **Tab Navigation** (Tab to Screen)
 
-- [ ] Home Feed
-- [ ] User Screen
-- [ ] 
+- [ ] Home Page
+- [ ] User Page
+- [ ] Expense Page
+- [ ] Logout
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [**Screen Name**]
-  * Leads to [**Next Screen**]
-- [ ] [**Another Screen Name**]
-  * Leads to [**Another Screen**] 
+- [ ] [**Home Page**]
+  * Leads to [**Sign-in Page**]
+  * Leads to [**User Page**]
+  * Leads to [**Expense Page**]
+- [ ] [**Sign-in Page**]
+  * Leads to [**Home Page**]
+  * Leads to [**Sign up Page**]
+- [ ] [**Sign-up Page**]
+  * Leads to [**Home Page**] 
+- [ ] [**User Page**]
+  * Leads to [**Sign-in Page**]
+  * Leads to [**Home Page**]
+  * Leads to [**Expense Page**]
+- [ ] [**Expense Page**]
+  * Leads to [**Home Page**]
 
 ## Wireframes
 
@@ -87,18 +99,23 @@
 
 ### Models
 
-[Model Name, e.g., User]
+[User Model]
 | Property | Type   | Description                                  |
 |----------|--------|----------------------------------------------|
-| username | String | unique id for the user post (default field)   |
-| password | String | user's password for login authentication      |
-| ...      | ...    | ...                          
+| username | String | unique id for the user post (default field)  |
+| password | String | user's password for login authentication     |
+| email    | String | user's email                                 |
+
+[Expense Model]
+| Property | Type   | Description                                  |
+|----------|--------|----------------------------------------------|
+| name     | String | name of expense                              |
+| amount   | double | expense price (usd)                          |
+| category | String | expense category (e.g. food, etc.)           |               
 
 ### Networking
 
-- [List of network requests by screen]
-- [Example: `[GET] /users` - to retrieve user data]
-- ...
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- `[GET] /users` - to retrieve user data
+- `[GET] /expenses` - to retrieve expense data
+- `[POST] /users` - to save user data
+- `[POST] /expenses` - to save expense data
