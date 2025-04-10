@@ -84,21 +84,21 @@
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [**Home Page**]
-  * Leads to [**Sign-in Page**]
-  * Leads to [**User Page**]
-  * Leads to [**Expense Page**]
-- [ ] [**Sign-in Page**]
-  * Leads to [**Home Page**]
-  * Leads to [**Sign up Page**]
-- [ ] [**Sign-up Page**]
-  * Leads to [**Home Page**] 
-- [ ] [**User Page**]
-  * Leads to [**Sign-in Page**]
-  * Leads to [**Home Page**]
-  * Leads to [**Expense Page**]
-- [ ] [**Expense Page**]
-  * Leads to [**Home Page**]
+- [ ] **Home Page**
+  * Leads to **Sign-in Page**
+  * Leads to **User Page**
+  * Leads to **Expense Page**
+- [ ] **Sign-in Page**
+  * Leads to **Home Page**
+  * Leads to **Sign up Page**
+- [ ] **Sign-up Page**
+  * Leads to **Home Page**
+- [ ] **User Page**
+  * Leads to **Sign-in Page**
+  * Leads to **Home Page**
+  * Leads to **Expense Page**
+- [ ] **Expense Page**
+  * Leads to **Home Page**
 
 ## Wireframes
 
